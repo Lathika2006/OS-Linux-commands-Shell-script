@@ -43,22 +43,31 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/645747f6-840a-4fb5-9bb8-3d37985808e1)
 
 
 cat < file2
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/4680c410-0f1a-417d-9f0d-05e417dff105)
+
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+
+ ![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/b72ea53a-f252-420f-b008-c1db50733c87)
+
 comm file1 file2
  ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/9d8206de-18fe-42e7-98c7-f58a03d1e027)
 
  
 diff file1 file2
 ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/9db3fd92-ee1d-45f1-81b7-2421566f2f4a)
 
 
 #Filters
@@ -83,16 +92,22 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/b05fb00f-680e-478f-bf30-40e73ed3f8fc)
+
+
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/9b1db5ba-2294-4c27-93e3-04529c484132)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/ac5c3093-ce26-4a44-8342-2861d83fe00c)
 
 
 cat < newfile 
@@ -108,38 +123,45 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/c9dcc002-ec57-4d2a-ac12-b2118670b418)
 
 
 grep hello newfile 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/1ba59f65-d89a-443c-b63e-658844690510)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/7898aa37-f171-4dd3-b9bf-4821a7c66366)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/b34be529-da32-4875-ada4-5403c4b2b219)
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
-
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/b68bbe48-76d8-4261-aea9-5b3525862b73)
 
 
 grep -R ubuntu /etc
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/c7641628-681a-431e-a85d-f9606f4a5cf5)
 
 
 grep -w -n world newfile   
 ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/ab89cc80-61df-49c7-b155-4a5e5172bb58)
 
 
 cat < newfile 
@@ -164,58 +186,75 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/3fb6eac9-fb4a-4396-9418-c277da0ac7af)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/15faa397-b760-4e38-88c5-46df8d1bdb60)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/cb5df577-6ca4-4fb2-a5b2-a1bbfc9342ff)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/84e6db99-923d-4dcb-9d2f-f759f1d23029)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/3e4a7354-30a8-4a78-9ba7-ef3d7b9205cc)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/73eb50dd-a4e7-4231-93fd-3043957f5bb6)
+
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/10d9f5b0-41c6-4871-8acb-7c1bbfbefaaa)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/56fd1f75-45fe-46f6-8ed2-f25c8c712aec)
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/7d6419cf-634f-4106-9a64-86fb2f8098c3)
+
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/1128e562-d671-4878-a83c-49a308d4f983)
 
 
 egrep l{2} newfile
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/da8d070f-5f44-421c-b63e-b08b08021b2d)
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/c79a5769-68c8-4842-87e9-d9799398d1dc)
 
 
 cat > file23
@@ -235,75 +274,93 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/d023edb3-6837-4065-98e9-08bb8b5d4360)
 
 
 sed -n -e '$p' file23
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/4c0977d9-7438-4ace-a89a-e0536e3c96b0)
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/03ea1332-8ae5-4e5b-9f27-5f150319a13b)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/54e0938a-b87e-4a52-a6d8-1d33b644ef58)
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/f4539868-4ccb-480e-a828-de27371cc413)
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
-
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/61c2937f-7b06-4bae-828a-7e00818b5287)
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/07aa75ef-5b1e-4d5b-bfe5-7d36cb65c8d7)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/b3664d94-dc31-448c-88b1-e74cd741c96b)
 
 
 seq 10 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/b51046e0-51df-4a04-97a3-9aff3b3929fd)
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/4ed9f3b2-3d9a-4859-a477-9c4d47247f26)
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/a910466b-be1c-4335-8842-201a475247b6)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/40491877-b232-4596-96a2-c3d9955510e8)
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/c0cd675e-bff0-4f16-a406-081556b997ad)
+
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/0867c436-fe08-4955-b19f-d73264f8008b)
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/97a3d875-4b77-48e6-bba7-a65eedd77df3)
 
 
 sed -n '2,4{s/$/*/;p}' file23
