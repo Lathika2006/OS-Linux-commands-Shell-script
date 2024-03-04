@@ -814,6 +814,9 @@ $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/24882ffa-4666-48a8-80b0-92c170da5e60)
+
+
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -832,6 +835,11 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+
+## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/fd8b7441-e413-4c34-b35e-72d6b8e953bd)
+
  
 cat > whiletest
 ```bash
@@ -847,7 +855,10 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ ## OUTPUT
+
+ ![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/e4f9b365-56ff-4898-b0fd-44843212470a)
+
  
 cat untiltest.sh 
 ```bash
@@ -860,8 +871,12 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
- 
+$ ./untiltest.sh
+
+##OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/22431f68-6b65-49ec-9287-eeb6d31792a4)
+
  
 cat forin1.sh 
 ```bash
@@ -874,7 +889,12 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+$ ./forin1.sh
+
+##OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/8766aba0-572e-4a9b-bd39-03c7e64820b1)
+
  
 cat forin2.sh 
 ```bash
@@ -887,7 +907,11 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
+$ ./forin2.sh
+## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/169751ae-053b-424e-b0ab-63ef3308d633)
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -910,7 +934,12 @@ do
 echo "word:$test"
 done
 ```
+$ chmod 755 forin3.sh
 $ ./forin3.sh 
+##OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/20318e60-4a59-472f-ac43-2f3fb6dcd9b9)
+
  
 cat forin1.sh 
 ```bash
@@ -946,6 +975,7 @@ Khammam
 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/1ee1082b-0af5-42d2-8088-78ba28ca6c20)
 
 cat forctype.sh 
 ```bash
@@ -960,6 +990,9 @@ $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/18486ab6-4411-45e3-8f9f-fa86c28172a5)
+
+
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -972,6 +1005,9 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/841f1a13-e515-4529-b171-cd063a871600)
+
 
 cat fornested1.sh 
 ```bash
@@ -991,6 +1027,8 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/1bdc895e-f05e-4992-9c84-b482adc312d0)
+
  
 cat forbreak.sh 
 ```bash
@@ -1007,6 +1045,9 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/b8396871-2ea9-4236-8a0b-f7ca315c2d98)
+
 
 $ chmod 755 forbreak.sh
  
@@ -1032,6 +1073,9 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/2f5a8645-be73-45eb-840b-8a9d23274fb6)
+
  
 cat exread.sh 
 ```bash
@@ -1047,6 +1091,8 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/b459d5c6-e132-4bc5-845d-ed2316ca8f75)
+
 
  cat exread1.sh
 ```bash
@@ -1057,8 +1103,10 @@ echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
 
+
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/f8502838-935e-4fda-9fe1-502e60e42c68)
 
 
 $ ./exread1.sh 
@@ -1078,11 +1126,15 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
- ./funcex.sh 
+$ chmod 755 funcex.sh
 
+$ ./funcex.sh
+
+$ ./funcex.sh 1 2
+
+## OUTPUT
  
- ./funcex.sh 1 2
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/62cd062e-c179-4e5a-9ab8-9a83f6b78032)
 
  
 cat argshift.sh
@@ -1095,8 +1147,14 @@ done
 ```
 $ chmod 777 argshift.sh
 
+$ ./argshift.sh
+
+./argshift.sh 1 2 3
+
 ## OUTPUT
-$ ./argshift.sh 1 2 3
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/e82552ac-1446-4b63-91a2-fe9947fa3ca3)
+
  
  cat argshift1.sh
 ```bash
@@ -1112,8 +1170,11 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
+
+## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/c104a58c-d3d6-4d6b-930b-d7779001e0ea)
  
 cat argshift.sh
 ```bash
@@ -1125,10 +1186,13 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
+chmod 777 argshift2.sh
  ./argshift.sh 1 2 3
  
+## OUTPUT
  
+ ![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/be6b3831-7903-4684-a5ad-4969e49f766a)
+
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -1158,7 +1222,9 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+
+ ![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/6cc7231e-1fe4-4a75-8d76-712cf7246e4a)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1185,6 +1251,8 @@ else
 fi
 ```
 ## OUTPUT 
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/9d97b191-3f17-43eb-8883-e773907c2eea)
 
 
 # RESULT:
