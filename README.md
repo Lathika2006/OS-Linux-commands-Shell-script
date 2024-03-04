@@ -378,6 +378,8 @@ cat > file21
 sort file21
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/ef7e2f21-aca3-4acd-818a-4f55a6cc180b)
+
 
 cat > file22
 ```
@@ -391,12 +393,16 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/1f2963c8-35ed-4d50-9053-02ce2a88be06)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/dbf6ba03-73d0-4af8-8dc3-0d50d2d6afb4)
+
 
 cat < urllist.txt
 ```
@@ -414,16 +420,20 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/0729a6c7-8b70-4a6e-93dd-369f6a699821)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/36ecee6f-5496-4b22-909a-5fe77534e6dc)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/81b64612-f73a-4d36-8b08-a1615ab5e326)
 
 
 mkdir backupdir
@@ -433,17 +443,27 @@ mv backup.tar backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/eb10b39d-0ce2-4e71-ab67-37fc7cc9d18b)
+
 
 tar -xvf backup.tar
 ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/1b4ddf40-3c5d-45e7-ae2b-914819b4c2ec)
+
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/f9334fa8-a252-415c-b056-c1f9b5d80b38)
+
  
 gunzip backup.tar.gz
 ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/5f0b0094-2c2c-40f3-884f-0c0dcecc24f1)
 
  
 # Shell Script
@@ -455,6 +475,7 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/c7f6eac0-d1a0-4703-9a07-2d631edd84d7)
  
 cat << stop > herecheck.txt
 ```
@@ -467,6 +488,7 @@ stop
 cat herecheck.txt
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/18cbf086-541c-4bb1-92ab-c814bdf8c142)
 
 cat < scriptest.sh 
 ```bash
@@ -505,12 +527,19 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/888cca6e-adb3-4897-99a7-fd743ee6f1bd)
+
  
 ls file1
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/8aa7a308-1319-4bfe-b9c2-7929272e63cc)
+
 echo $?
 ## OUTPUT 
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/f0d7cbbc-d1eb-42b7-830b-91c7bc5797f4)
+
 ./one
 bash: ./one: Permission denied
  
@@ -554,12 +583,15 @@ fi
 ```
 ##OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/35a3a9c0-5224-4e0f-bae9-6c603032ec8e)
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/a22b99b0-1191-4cd0-a055-a3206264951b)
 
 
 # check file ownership
@@ -587,6 +619,9 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/f984545d-33bc-4b82-833f-e994e20beb27)
+
 
 # check if with file location
 cat>ifnested.sh 
@@ -634,6 +669,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/d95b622a-155f-4e82-a895-818b862dbca1)
 
 
 # using numeric test comparisons
@@ -677,6 +713,9 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/031d4ce7-6bf5-4cf0-9ef6-3c6fad1b8752)
+
 
 # check if a file
 cat > ifnested.sh 
@@ -727,6 +766,9 @@ $ chmod 755 ifnested.sh
 $ ./ifnested.sh 
 ##OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/b67da7ca-c91d-4a9f-8d63-c24b01a28434)
+
+
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -755,6 +797,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+![image](https://github.com/Lathika2006/OS-Linux-commands-Shell-script/assets/148959215/a955d321-158d-46a5-a932-dbe21449c991)
 
 # testing compound comparisons
 cat> ifcompound.sh 
